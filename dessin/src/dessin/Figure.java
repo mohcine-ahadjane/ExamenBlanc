@@ -5,7 +5,6 @@ import observer.ObservableImpl;
 
 public abstract class Figure
 {
-
     int epaisseur;
     int couleurCont ;
     int couleurRemp;

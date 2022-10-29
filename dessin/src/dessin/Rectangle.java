@@ -3,7 +3,6 @@ package dessin;
 public class Rectangle extends Figure{
 
     private Point coinGauche =new Point();
-
     private double largeur ;
     private double hauteur ;
 

@@ -7,16 +7,13 @@ public class Cercle extends Figure{
     private double rayon ;
     private Traitement traitement ;
 
-
     public Cercle(int x, int y, double rayon) {
         this.centre = new Point(x,y);
         this.rayon = rayon;
     }
-
     public Cercle() {
 
     }
-
     public double perimetre() {
         return rayon*3.14;
     }
@@ -30,9 +27,6 @@ public class Cercle extends Figure{
     public void dessigner() {
 
     }
-
-
-
     @Override
     public void afficher() {
         System.out.println("************************");

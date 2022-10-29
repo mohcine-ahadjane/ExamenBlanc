@@ -8,7 +8,7 @@ import java.util.List;
 public class ObservableImpl implements Observable {
 
     private  int epaisseur;
-    private int couleurCout;
+    private int couleurCont;
     private int couleurRemp;
     List<Figure> figures = new ArrayList<>();
 
@@ -33,23 +33,21 @@ public class ObservableImpl implements Observable {
             o.update(this);
         }
     }
-
     public int getEpaisseur() {
         return epaisseur;
 
     }
-
     public void setEpaisseur(int epaisseur) {
         this.epaisseur = epaisseur;
         notifyFigures();
     }
 
     public int getCouleurCout() {
-        return couleurCout;
+        return couleurCont;
     }
 
     public void setCouleurCout(int couleurCout) {
-        this.couleurCout = couleurCout;
+        this.couleurCont = couleurCout;
         notifyFigures();
     }
 
